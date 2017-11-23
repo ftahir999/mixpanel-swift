@@ -115,7 +115,7 @@ public final class TweakStore {
 	// MARK: - Internal
 
 	/// Resets all tweaks to their `defaultValue`
-	internal func reset() {
+	public func reset() {
 		persistence.clearAllData()
 
 		// Go through all tweaks in our library, and call any bindings they're attached to.
